@@ -1,7 +1,7 @@
-package com.example.market.controller
+package com.broker.market.controller
 
-import com.example.market.model.MarketData
-import com.example.market.service.MarketDataService
+import com.broker.market.model.MarketData
+import com.broker.market.service.MarketDataService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 import org.springframework.web.bind.annotation.RequestParam

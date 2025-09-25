@@ -1,9 +1,9 @@
-package com.example.demo
+package com.broker.demo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@SpringBootApplication(scanBasePackages = ["com.example"])
+@SpringBootApplication(scanBasePackages = ["com.broker.market"])
 class DemoApplication
 
 fun main(args: Array<String>) {

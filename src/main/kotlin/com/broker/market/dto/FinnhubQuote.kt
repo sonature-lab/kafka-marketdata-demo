@@ -1,6 +1,6 @@
-package com.example.market.dto
+package com.broker.market.dto
 
-import com.example.market.model.MarketData
+import com.broker.market.model.MarketData
 import java.time.Instant
 
 data class FinnhubQuote(

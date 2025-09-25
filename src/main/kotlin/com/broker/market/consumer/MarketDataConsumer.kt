@@ -1,7 +1,7 @@
-package com.example.market.consumer
+package com.broker.market.consumer
 
-import com.example.market.model.MarketData
-import com.example.market.service.MarketDataService
+import com.broker.market.model.MarketData
+import com.broker.market.service.MarketDataService
 import org.slf4j.LoggerFactory
 import org.springframework.kafka.annotation.KafkaListener
 import org.springframework.stereotype.Service

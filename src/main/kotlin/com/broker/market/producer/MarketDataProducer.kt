@@ -1,6 +1,6 @@
-package com.example.market.producer
+package com.broker.market.producer
 
-import com.example.market.model.MarketData
+import com.broker.market.model.MarketData
 import org.slf4j.LoggerFactory
 import org.springframework.kafka.core.KafkaTemplate
 import org.springframework.stereotype.Service

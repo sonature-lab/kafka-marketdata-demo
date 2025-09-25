@@ -1,4 +1,4 @@
-package com.example.market.model
+package com.broker.market.model
 
 import java.time.Instant
 

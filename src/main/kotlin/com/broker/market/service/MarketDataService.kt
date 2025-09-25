@@ -1,12 +1,12 @@
-package com.example.market.service
+package com.broker.market.service
 
-import com.example.market.model.MarketData
-import com.example.market.producer.MarketDataProducer
+import com.broker.market.model.MarketData
+import com.broker.market.producer.MarketDataProducer
 import org.springframework.stereotype.Service
 import org.springframework.web.client.RestTemplate
 import java.util.concurrent.atomic.AtomicReference
-import com.example.market.config.FinnhubConfig
-import com.example.market.dto.FinnhubQuote
+import com.broker.market.config.FinnhubConfig
+import com.broker.market.dto.FinnhubQuote
 
 /**
  * MarketDataService
